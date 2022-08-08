@@ -61,7 +61,7 @@ dlink,dir-615-d)
 	ucidef_set_led_netdev "wan" "WAN (green)" "green:wan" "eth0.2"
 	ucidef_set_led_netdev "wifi_led" "wifi" "rt2800soc-phy0::radio" "wlan0"
 	;;
-dlink,dir-620-d1|\
+dlink,dir-620-d1,dir-815-b1|\
 trendnet,tew-714tru)
 	ucidef_set_led_netdev "wifi_led" "wifi" "green:wifi" "wlan0"
 	;;

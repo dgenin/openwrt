@@ -78,6 +78,7 @@ ramips_setup_interfaces()
 	dlink,dir-615-d|\
 	dlink,dir-620-a1|\
 	dlink,dir-620-d1|\
+	dlink,dir-815-b1|\
 	dlink,dwr-512-b|\
 	easyacc,wizard-8800|\
 	edimax,3g-6200n|\
@@ -215,6 +216,7 @@ ramips_setup_macs()
 	argus,atp-52b|\
 	asus,wl-330n3g|\
 	dlink,dir-620-d1|\
+	dlink,dir-815-b1|\
 	edimax,3g-6200n|\
 	edimax,3g-6200nl|\
 	netcore,nw718|\

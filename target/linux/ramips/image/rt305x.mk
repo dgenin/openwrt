@@ -466,6 +466,16 @@ define Device/dlink_dir-620-d1
 endef
 TARGET_DEVICES += dlink_dir-620-d1
 
+define Device/dlink_dir-815-b1
+  SOC := rt3352
+  IMAGE_SIZE := 7872k
+  DEVICE_VENDOR := D-Link
+  DEVICE_MODEL := DIR-815
+  DEVICE_VARIANT := B1
+  SUPPORTED_DEVICES += dir-815-b1
+endef
+TARGET_DEVICES += dlink_dir-815-b1
+
 define Device/dlink_dwr-512-b
   SOC := rt5350
   IMAGE_SIZE := 8064k
