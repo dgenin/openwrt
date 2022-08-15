@@ -59,15 +59,15 @@
 				read-only;
 			};
 
-			partition@30000 {
+			partition@40000 {
 				label = "u-boot-env";
-				reg = <0x30000 0x10000>;
+				reg = <0x40000 0x10000>;
 				read-only;
 			};
 
-			factory: partition@40000 {
+			factory: partition@30000 {
 				label = "factory";
-				reg = <0x40000 0x10000>;
+				reg = <0x30000 0x10000>;
 				read-only;
 			};
 
@@ -98,7 +98,7 @@
 };
 
 &wmac {
-	ralink,mtd-eeprom = <&factory 0x0>;
+	ralink,mtd-eeprom = <&factory 0x4000>;
 };
 
 &ehci {
